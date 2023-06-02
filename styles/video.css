@@ -96,12 +96,21 @@
   position: absolute;
   background-color: white;
   display: flex;
-  bottom: -80px;
+  bottom: -10px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 16px;
   padding-bottom: 16px;
   border-radius: 4px;
+  z-index: 300;
+  opacity: 0;
+  transition: 0.25s;
+  pointer-events: none;
+}
+.channel-picture:hover .channel-tip
+{
+  opacity: 1;
+  transition: 0.25s;
 }
 
 .channel-tip div, .channel-tip p
