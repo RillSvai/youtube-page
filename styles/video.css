@@ -16,7 +16,7 @@
 
 .profile-picture
 {
-  width: 100%;
+  width: 36px;
   border-radius: 18px;
 }
 
@@ -85,3 +85,37 @@
   border-radius: 2px;
   font-weight: 500;
 }
+
+.channel-picture
+{
+  position: relative;
+}
+
+.channel-tip
+{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  bottom: -80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 4px;
+}
+
+.channel-tip div, .channel-tip p
+{
+  white-space: nowrap;
+  flex: 1;
+  margin-left: 4px;
+}
+.channel-tip-name
+{
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Roboto, Arial, sans-serif;
+  margin-bottom: 4px;
+}
+
+
