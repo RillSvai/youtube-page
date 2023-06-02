@@ -138,4 +138,26 @@
   cursor: pointer;
 }
 
+.notifications-icon-container
+{
+  position: relative;
+}
+
+.notifications-count
+{
+  position: absolute;
+  background-color: rgb(204, 0, 0);
+  right: -3px;
+  top: 0px;
+  border-radius: 20px;
+  padding: 0px;
+  color: white;
+  font-size: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-family: Roboto,Arial,sans-serif;
+}
+
 

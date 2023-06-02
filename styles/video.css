@@ -23,6 +23,7 @@
 .thumbnail-row
 {
   margin-bottom: 10px;
+  position: relative;
 }
 
 .video-author,
@@ -62,4 +63,25 @@
 .video-preview
 {
   padding: 4px;
+}
+
+.title-link
+{
+  text-decoration: none;
+  color: black;
+}
+
+
+.video-time
+{
+  background-color: black;
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  font-family: Roboto, Arial, sans-serif;
+  bottom: 10px;
+  right: 5px;
+  padding: 4px;
+  border-radius: 2px;
+  font-weight: 500;
 }
