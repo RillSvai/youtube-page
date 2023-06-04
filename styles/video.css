@@ -1,4 +1,5 @@
 
+
 .thumbnail
 {
   width: 100%;
@@ -126,6 +127,30 @@
   font-weight: bold;
   font-family: Roboto, Arial, sans-serif;
   margin-bottom: 4px;
+}
+
+@media (min-width: 1000px)
+{
+  .video-grid
+  {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 750px)
+{
+  .video-grid
+  {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px)
+{
+  .video-grid
+  {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 
